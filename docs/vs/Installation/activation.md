@@ -21,7 +21,7 @@ Click **Begin Trial** to start a free 30-day evaluation.
 
 > **Note:** The trial can also be activated from the Visual Studio menu. Click **Help**, and then **Activate PHP Tools for Visual Studio** to re-open the activation dialog.
 
-## Obtain your License Key
+## Obtain License Key
 
 The license key can be purchased online from our [Purchase page](https://www.devsense.com/purchase). For detailed information about licence types, licensing model, purchase, upgrades and renewal, see our [FAQ section](https://www.devsense.com/en/purchase#faq).
 
@@ -29,9 +29,7 @@ The license key can be purchased online from our [Purchase page](https://www.dev
 
 Once you have a purchased license key, you can activate your copy of PHP Tools for Visual Studio. The product can be activated from the Visual Studio menu. Click `Help | Activate PHP Tools for Visual Studio` to open the activation dialog. 
 
-
 Then, paste your license key and click "Activate".
-
 
 ![Enter license key](imgs/activation-enter-key.png)
 
@@ -43,6 +41,15 @@ To review the status of your maintenance and support subscription, go to `Help |
 
 This window gives you information about your license status, product version and the option to renew your subscription.
 
-## Related links
+## User Seats
 
-- [Offline activation](offline-activation): How to activate the product license with a blocked Internet connection.
+Licenses are assigned to individual users and computers upon first activation. In the case a computer is no longer in use, or a user is no longer actively using the license, you can unregister them to free up their seat for another user. Visit the [**Dashboard**](https://www.devsense.com/account/dashboard) in the upper right corner of this web site to do so.
+
+1. **Create a new user account** in the dashboard, or login using available social login.
+2. In case there is no *License Key* listed in your Dashnoard, **Associate License Key** first.
+3. Navigate to **Subscriptions** and adjust number of seats, or disable associated seats to free them for new users.
+
+## Related Links
+
+- [Offline Activation](offline-activation): How to activate the product license with a blocked Internet connection.
+- [Licenses FAQ](https://www.devsense.com/en/purchase#faq): More information about licenses and purchases.

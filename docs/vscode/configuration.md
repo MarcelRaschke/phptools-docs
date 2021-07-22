@@ -15,7 +15,7 @@ You can download the `.vsix` installation file from our [download section](https
 
 The program may perform an additional download of dependencies during the first start, after the installation. Please, be sure to have an Internet connection. In case your computer cannot go online, do one of the following:
 
-- Install Microsoft .NET Core Runtime 3.0 or newer for your platform (More information on https://www.microsoft.com/net/download), or
+- Install Microsoft .NET 5.0, Runtime or Sdk, for your platform (More information on https://www.microsoft.com/net/download), or
 - Advanced: Download the dependency manually. See VSCode's Output, panel 'PHP', for the log and the URL of the dependency. Extract the zip file into `/out/server` of the extension's installation directory.
 
 ## Configuration options
@@ -24,11 +24,14 @@ The following settings are introduced by the extension. Navigate to [VSCode's Se
 
 Setting | Values | Description
 ---     | ---    | ---
-`php.executablePath` | Full path to the `php` program, or not set. | Specifies the full path to the `php` program that will be used within [test explorer](test-explorer) and [debugging](debug).
+`php.version` | PHP version or a profile name defined in `php.executables` | Specifies the PHP version to be used by default by debugger, code analysis, and test explorer.
+`php.executables` | Set of profile names and corresponding PHP executable path. | Defined profile names that can be chosen in `php.version` setting, or from the PHP version picker.
+`php.executablePath` | Full path to the `php` executable, or not set. | Legacy option. Specifies the full path to the `php` executable that will be used within [test explorer](test-explorer), [debugging](debug), and to determine the PHP version for code validation.
 [`php.problems.exclude`](problems#configuration) | Associative map of paths and whether to exclude them from problems checking. | Specifies what problems will be hidden in specified directories. It is possible to set `true` to ignore all problems, or an array of error codes. Sample: `{'/vendor/**':true, '/tests/**':[6501,6555]}`. See [problems configuration](problems#configuration).
 `php.problems.workspaceAnalysis` | "true", "false" | Allows to disable the full workspace analysis. Recommended for larger projects.
 `php.format.codeStyle` | "PHP Tools", "PSR-2" | Code formatting profile.
-`phpTools.language` | "en", "de", "es", "fr", "ja", "pt", "ro", "ru", "tr", "zh", or not set. | Specifies the language code of integrated documentation. If not set, the setting defaults to system's language.
+`php.format.autoimport` | "auto-import", "fqn", "none", "hide" | Configures how to treat completion of names outside the current namespace. See [auto-import](editor/auto-import).
+`phpTools.language` | "en", "de", "es", "fr", "ja", "pt", "ro", "ru", "tr", "zh". | Specifies the language code of integrated documentation. If not set, the setting defaults to system's language.
 `files.exclude` | Associative map of paths to be excluded from the project. | Specifies files that won't be processed by the code analysis engine (code completion, navigation, problems).
 
 ## License activation

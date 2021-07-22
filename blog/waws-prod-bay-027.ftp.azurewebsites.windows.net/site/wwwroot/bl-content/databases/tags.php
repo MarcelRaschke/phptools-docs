@@ -3,14 +3,38 @@
     "annoucement": {
         "name": "annoucement",
         "list": [
+            "2020\/php-tools-september-2020",
             "2015\/09\/annoucement-phalanger-tools",
             "2015\/07\/php-innovation-award"
+        ]
+    },
+    "announcement": {
+        "name": "announcement",
+        "list": [
+            "2020\/updates-visual-studio-november-2020"
         ]
     },
     "apache": {
         "name": "Apache",
         "list": [
             "2018\/04\/wsl"
+        ]
+    },
+    "auto-import": {
+        "name": "Auto-Import",
+        "list": [
+            "2021\/php-tools-vs-code-auto-import"
+        ]
+    },
+    "code": {
+        "name": "Code",
+        "list": [
+            "2021\/php-tools-vs-code-auto-import",
+            "2021\/php-tools-vs-code-1-4",
+            "2021\/laravel-wsl-vscode",
+            "2021\/php-tools-vs-code-march",
+            "2020\/php-8-visual-studio-code",
+            "2020\/php-tools-for-vs-code-november-2020"
         ]
     },
     "code-validation": {
@@ -28,6 +52,8 @@
     "composer": {
         "name": "composer",
         "list": [
+            "2021\/laravel-wsl-vscode",
+            "2021\/php-tools-vs-march-2021",
             "2015\/03\/newsletter-phptools-1-15"
         ]
     },
@@ -40,6 +66,7 @@
     "debug": {
         "name": "debug",
         "list": [
+            "2021\/php-tools-visual-studio-april-2021",
             "2019\/php-tracepoint-logpoint",
             "2017\/08\/phptools-1.24",
             "2017\/07\/advanced-debug",
@@ -66,11 +93,25 @@
             "2015\/09\/newsletter-phptools-1.18"
         ]
     },
+    "installation": {
+        "name": "installation",
+        "list": [
+            "2020\/installing-php-8-one-click"
+        ]
+    },
     "intellisense": {
         "name": "IntelliSense",
         "list": [
+            "2020\/php-8-editor-in-visual-studio",
             "2016\/12\/phptools-1.21",
             "2015\/10\/codesense-best-practices"
+        ]
+    },
+    "laravel": {
+        "name": "laravel",
+        "list": [
+            "2021\/laravel-wsl-vscode",
+            "2021\/how-to-install-laravel-in-visual-studio"
         ]
     },
     "localization": {
@@ -91,9 +132,16 @@
             "2019\/php-tracepoint-logpoint"
         ]
     },
+    "new": {
+        "name": "new",
+        "list": [
+            "2021\/php-tools-for-visual-studio-april-2021"
+        ]
+    },
     "news": {
         "name": "news",
         "list": [
+            "2020\/updates-visual-studio-november-2020",
             "2018\/04\/phptools-1.27",
             "2018\/02\/phptools-1.26",
             "2017\/11\/phptools-1.25",
@@ -128,6 +176,19 @@
             "2014\/09\/newsletter-phptools-1-14"
         ]
     },
+    "pcre": {
+        "name": "pcre",
+        "list": [
+            "2021\/php-tools-for-visual-studio-april-2021",
+            "2021\/php-regex-editor"
+        ]
+    },
+    "performance": {
+        "name": "Performance",
+        "list": [
+            "2021\/php-tools-for-vs-july-2021"
+        ]
+    },
     "phalanger": {
         "name": "phalanger",
         "list": [
@@ -147,8 +208,26 @@
         ]
     },
     "php": {
-        "name": "php",
+        "name": "PHP",
         "list": [
+            "2021\/php-tools-vs-code-auto-import",
+            "2021\/php-tools-for-vs-july-2021",
+            "2021\/configuring-xampp",
+            "2021\/php-tools-vs-code-1-4",
+            "2021\/laravel-wsl-vscode",
+            "2021\/php-vs-code-may-2021",
+            "2021\/php-tools-for-visual-studio-april-2021",
+            "2021\/php-regex-editor",
+            "2021\/managing-multiple-php-versions-on-windows-with-visual-studio",
+            "2021\/php-tools-visual-studio-april-2021",
+            "2021\/php-tools-vs-code-march",
+            "2021\/php-tools-vs-march-2021",
+            "2021\/how-to-install-laravel-in-visual-studio",
+            "2020\/php-8-visual-studio-code",
+            "2020\/installing-php-8-one-click",
+            "2020\/php-tools-for-vs-code-november-2020",
+            "2020\/phptools-vs-code-september-2020",
+            "2020\/php-tools-september-2020",
             "2019\/php-tracepoint-logpoint",
             "2019\/how-to-install-phptools-for-vscode-on-windows",
             "2019\/factors-to-consider-when-choosing-your-php-development-tool",
@@ -178,6 +257,21 @@
             "2016\/02\/newsletter-phptools-1.19"
         ]
     },
+    "php-8": {
+        "name": "php 8",
+        "list": [
+            "2020\/php-8-visual-studio-code",
+            "2020\/php-8-editor-in-visual-studio"
+        ]
+    },
+    "php-8.1": {
+        "name": "PHP 8.1",
+        "list": [
+            "2021\/php-tools-for-vs-july-2021",
+            "2021\/php-vs-code-may-2021",
+            "2021\/php-tools-for-visual-studio-april-2021"
+        ]
+    },
     "php-tools": {
         "name": "php tools",
         "list": [
@@ -190,6 +284,20 @@
             "2016\/10\/php7"
         ]
     },
+    "php8": {
+        "name": "php8",
+        "list": [
+            "2021\/php-tools-vs-code-1-4",
+            "2021\/php-tools-vs-march-2021",
+            "2020\/installing-php-8-one-click"
+        ]
+    },
+    "php8.1": {
+        "name": "php8.1",
+        "list": [
+            "2021\/php-tools-vs-code-1-4"
+        ]
+    },
     "phpdoc": {
         "name": "phpdoc",
         "list": [
@@ -198,9 +306,23 @@
             "2015\/09\/newsletter-phptools-1.18"
         ]
     },
-    "phpunit": {
-        "name": "PHPUnit",
+    "phpstorm": {
+        "name": "phpstorm",
         "list": [
+            "2021\/php-tools-vs-code-march"
+        ]
+    },
+    "phptools": {
+        "name": "phptools",
+        "list": [
+            "2021\/php-vs-code-may-2021",
+            "2021\/php-tools-visual-studio-april-2021"
+        ]
+    },
+    "phpunit": {
+        "name": "phpunit",
+        "list": [
+            "2021\/php-vs-code-may-2021",
             "2017\/06\/unit-testing"
         ]
     },
@@ -208,6 +330,18 @@
         "name": "Press Release",
         "list": [
             "2013\/11\/pressrelease-php-vs2013-md"
+        ]
+    },
+    "project": {
+        "name": "project",
+        "list": [
+            "2021\/managing-multiple-php-versions-on-windows-with-visual-studio"
+        ]
+    },
+    "project-system": {
+        "name": "Project System",
+        "list": [
+            "2021\/php-tools-for-vs-july-2021"
         ]
     },
     "projectsystem": {
@@ -219,12 +353,21 @@
     "refactoring": {
         "name": "refactoring",
         "list": [
+            "2021\/php-tools-vs-code-march",
             "2015\/06\/newsletter-phptools-1-16"
+        ]
+    },
+    "regex": {
+        "name": "regex",
+        "list": [
+            "2021\/php-tools-for-visual-studio-april-2021",
+            "2021\/php-regex-editor"
         ]
     },
     "release": {
         "name": "release",
         "list": [
+            "2021\/php-tools-vs-code-1-4",
             "2018\/04\/phptools-1.27",
             "2018\/02\/phptools-1.26",
             "2017\/11\/phptools-1.25",
@@ -264,9 +407,22 @@
             "2017\/04\/phptools-1.23"
         ]
     },
-    "tests": {
-        "name": "Tests",
+    "test": {
+        "name": "test",
         "list": [
+            "2021\/php-vs-code-may-2021"
+        ]
+    },
+    "testing": {
+        "name": "testing",
+        "list": [
+            "2021\/php-vs-code-may-2021"
+        ]
+    },
+    "tests": {
+        "name": "tests",
+        "list": [
+            "2021\/php-vs-code-may-2021",
             "2017\/06\/unit-testing"
         ]
     },
@@ -296,10 +452,55 @@
             "2016\/11\/unusedcode"
         ]
     },
+    "update": {
+        "name": "update",
+        "list": [
+            "2021\/php-tools-vs-march-2021",
+            "2020\/php-tools-september-2020"
+        ]
+    },
+    "updates": {
+        "name": "updates",
+        "list": [
+            "2020\/php-tools-for-vs-code-november-2020",
+            "2020\/phptools-vs-code-september-2020"
+        ]
+    },
+    "visual-studio": {
+        "name": "Visual Studio",
+        "list": [
+            "2021\/php-tools-vs-code-auto-import",
+            "2021\/php-tools-for-vs-july-2021",
+            "2021\/configuring-xampp",
+            "2021\/php-tools-vs-code-1-4",
+            "2021\/php-tools-for-visual-studio-april-2021",
+            "2021\/managing-multiple-php-versions-on-windows-with-visual-studio",
+            "2021\/php-tools-visual-studio-april-2021",
+            "2021\/php-tools-vs-march-2021",
+            "2021\/how-to-install-laravel-in-visual-studio",
+            "2020\/php-8-editor-in-visual-studio",
+            "2020\/installing-php-8-one-click",
+            "2020\/updates-visual-studio-november-2020",
+            "2020\/php-tools-for-vs-code-november-2020",
+            "2020\/php-tools-september-2020"
+        ]
+    },
     "visual-studio-2017": {
         "name": "Visual Studio 2017",
         "list": [
             "2016\/11\/vs2017"
+        ]
+    },
+    "visual-studio-2019": {
+        "name": "Visual Studio 2019",
+        "list": [
+            "2021\/php-tools-for-vs-july-2021"
+        ]
+    },
+    "visual-studio-code": {
+        "name": "visual studio code",
+        "list": [
+            "2020\/php-8-visual-studio-code"
         ]
     },
     "visualstudio": {
@@ -339,15 +540,50 @@
             "2016\/12\/phptools-1.21"
         ]
     },
-    "wsl": {
-        "name": "WSL",
+    "vsc": {
+        "name": "vsc",
         "list": [
+            "2020\/php-8-visual-studio-code"
+        ]
+    },
+    "vscode": {
+        "name": "VSCode",
+        "list": [
+            "2021\/php-tools-vs-code-auto-import",
+            "2021\/configuring-xampp",
+            "2021\/php-tools-vs-code-1-4",
+            "2021\/laravel-wsl-vscode",
+            "2021\/php-vs-code-may-2021",
+            "2021\/php-tools-vs-code-march",
+            "2020\/php-tools-for-vs-code-november-2020",
+            "2020\/phptools-vs-code-september-2020"
+        ]
+    },
+    "wsl": {
+        "name": "wsl",
+        "list": [
+            "2021\/laravel-wsl-vscode",
             "2018\/04\/wsl"
         ]
     },
-    "xdebug": {
-        "name": "Xdebug",
+    "x64": {
+        "name": "x64",
         "list": [
+            "2021\/php-tools-visual-studio-april-2021"
+        ]
+    },
+    "xampp": {
+        "name": "xampp",
+        "list": [
+            "2021\/configuring-xampp"
+        ]
+    },
+    "xdebug": {
+        "name": "xdebug",
+        "list": [
+            "2021\/configuring-xampp",
+            "2021\/laravel-wsl-vscode",
+            "2021\/php-tools-vs-march-2021",
             "2018\/04\/wsl",
             "2015\/10\/debugging-multiple-projects"
         ]
